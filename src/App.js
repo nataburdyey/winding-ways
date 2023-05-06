@@ -5,7 +5,6 @@ import Navbar from "./components/Navbar";
 import Services from "./components/Services";
 import Tours from "./components/Tours";
 
-
 function App() {
   return (
     <>
@@ -16,7 +15,7 @@ function App() {
       <Tours />
       <Footer />
     </>
-  )
+  );
 }
 
 export default App;
