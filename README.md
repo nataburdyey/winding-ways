@@ -7,7 +7,7 @@ Refactored HTML pages transformed into a dynamic React application.
 - `JavaScript`: Foundational programming language for creating responsive and interactive features.
 - `React`: A powerful JavaScript library used to build the project.
 
-### Explore the Website
+### Explore The Website
 [Winding Ways on Netlify](https://winding-ways.netlify.app/)
 
 ### Preview
