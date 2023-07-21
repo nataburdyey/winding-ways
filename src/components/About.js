@@ -1,16 +1,16 @@
-import aboutImg from "../images/about.jpeg";
-import Title from "./Title";
+import aboutImg from '../images/about.jpeg';
+import Title from './Title';
 
 const About = () => {
   return (
-    <section class="section" id="about">
-      <Title title="About" subTitle="us" />
+    <section className='section' id='about'>
+      <Title title='About' subTitle='us' />
 
-      <div class="section-center about-center">
-        <div class="about-img">
-          <img src={aboutImg} class="about-photo" alt="mountain-path" />
+      <div className='section-center about-center'>
+        <div className='about-img'>
+          <img src={aboutImg} className='about-photo' alt='mountain-path' />
         </div>
-        <article class="about-info">
+        <article className='about-info'>
           <h3>explore the difference</h3>
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
@@ -22,7 +22,7 @@ const About = () => {
             quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
             unde dolor?
           </p>
-          <a href="#About" class="btn">
+          <a href='#About' className='btn'>
             read more
           </a>
         </article>

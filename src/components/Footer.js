@@ -1,15 +1,15 @@
-import PageLinks from "./PageLinks";
-import SocialLinks from "./SocialLinks";
+import PageLinks from './PageLinks';
+import SocialLinks from './SocialLinks';
 
 const Footer = () => {
   return (
     <>
-      <footer className="section footer">
-        <PageLinks parentClass="footer-links" childClass="footer-link" />
-        <SocialLinks parentClass="footer-icons" childClass="footer-icon" />
-        <p className="copyright">
+      <footer className='section footer'>
+        <PageLinks parentClass='footer-links' childClass='footer-link' />
+        <SocialLinks parentClass='footer-icons' childClass='footer-icon' />
+        <p className='copyright'>
           copyright &copy; Winding Ways travel tours company
-          <span id="date">{new Date().getFullYear()}</span> all rights reserved
+          <span id='date'>{new Date().getFullYear()}</span> all rights reserved
         </p>
       </footer>
     </>
